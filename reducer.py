@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import sys
-
 # maps words to their counts
 word2count = {}
 
