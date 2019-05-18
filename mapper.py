@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import sys
 import string
-from sklearn.feature_extraction import stop_words
+from nltk.corpus import stopwords
  
-stops = set(stop_words.ENGLISH_STOP_WORDS)
+stops = set(stopwords.words('english'))
 # get all lines from stdin
 for line in sys.stdin:	
     # remove leading and trailing whitespace
